@@ -1,0 +1,14 @@
+<div>
+  <h1>Météo</h1>
+  <form (submit)="rechercher(); $event.preventDefault()">
+    <input [(ngModel)]="ville" name="ville" placeholder="Entrez une ville" required />
+    <button type="submit">Rechercher</button>
+  </form>
+
+  <div *ngIf="meteo">
+    <h2>{{ meteo.name }}</h2>
+    <p>Température : {{ meteo.main.temp }} °C</p>
+    <p>Météo : {{ meteo.weather[0].description }}</p>
+    <p>Humidité : {{ meteo.main.humidity }}%</p>
+  </div>
+</div>
