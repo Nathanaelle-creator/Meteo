@@ -9,6 +9,6 @@ export const environment = {
 };
 `;
 
-fs.writeFileSync('./src/environments/environment.prod.ts', envFileContent);
+fs.writeFileSync('./src/app/environments/environment.prod.ts', envFileContent);
 
 console.log('✅ environment.prod.ts file generated with the API key.');
