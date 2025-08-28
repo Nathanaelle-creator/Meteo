@@ -2,9 +2,10 @@
   "name": "meteo-app",
   "version": "0.0.0",
   "scripts": {
+    "prebuild": "node set-env.js",
+    "build": "ng build --prod",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
