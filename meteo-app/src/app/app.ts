@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MeteoComponent } from './meteo/meteo'; // Assure-toi du bon chemin
+import { MeteoComponent } from './meteo/meteo'; 
 import { CommonModule } from '@angular/common';
 
 @Component({

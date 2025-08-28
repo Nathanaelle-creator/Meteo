@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';   // Pour *ngIf
-import { FormsModule } from '@angular/forms';     // Pour ngModel
+import { CommonModule } from '@angular/common';   
+import { FormsModule } from '@angular/forms';     
 import { MeteoService } from '../meteo.service';
 
 @Component({
